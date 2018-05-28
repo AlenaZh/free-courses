@@ -27,4 +27,4 @@ function format(param,paramArray){
         }
     }
 }
-console.log(hour+" "+format(hour,hourArray)+" "+minute+" "+format(minute,minuteArray)+" "+sec+" "+format(sec,secArray));
+process.stdout.write(String(hour+" "+format(hour,hourArray)+" "+minute+" "+format(minute,minuteArray)+" "+sec+" "+format(sec,secArray)));

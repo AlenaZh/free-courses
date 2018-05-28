@@ -25,4 +25,4 @@ var msNewYearDate = Date.parse(newYearDate);
 
 var Result = (msNewYearDate-msInDate)/1000/60/60/24;
 
-console.log(Result);
+process.stdout.write(String(Result));
