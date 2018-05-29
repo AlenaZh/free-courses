@@ -1,4 +1,4 @@
-var msSumm = parseInt(process.argv[2])+parseInt(process.argv[3]);
+var msSumm = parseInt(process.argv[1])+parseInt(process.argv[2]);
 
 var sec = msSumm%60;
 var minute =(msSumm-sec)%3600/60;
