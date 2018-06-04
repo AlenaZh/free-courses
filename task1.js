@@ -1,6 +1,6 @@
 var inString = '';
 
-for(i=1;i<process.argv.length;i++){
+for(i=2;i<process.argv.length;i++){
     inString+=process.argv[i];
 }
 

@@ -13,9 +13,9 @@ var MonthArray = new Map([
     ['декабря',11]
 ]);
 
-var day = process.argv[1];
-var month = process.argv[2].toLowerCase();
-var year = process.argv[3];
+var day = process.argv[2];
+var month = process.argv[3].toLowerCase();
+var year = process.argv[4];
 
 var inDate = new Date(year,MonthArray.get(month),day);
 var newYearDate =new Date(year,11,31);
